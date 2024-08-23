@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cinza-claro: #667085;
+    --cinza-escuro: #3A404E;
+    --bordo: #8E2424;
+    --branco: #fff;
+
+}
+
+
+/* NAVBAR -----------------------------------------------------*/
+
+.cabecalho {
+    padding: 2rem;
+    display: flex;
+    width: 1380px;
+    height: 120x;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo span {
+    font-size: 18px;
+    color: var(--cinza-escuro);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.menu-itens {
+    display: flex;
+    gap: 40px;
+    margin-top: 6px;
+}
+
+.item {
+    list-style: none;
+    font-size: 16px;
+}
+
+.item > a {
+    text-decoration: none;
+    color: var(--cinza-claro);
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-cabecalho {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-entrar {
+    padding: 10px 18px 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--branco);
+    font-size: 16px;
+}
+
+.btn-cadastrar {
+    padding: 10px 18px 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--bordo);
+    color: var(--branco);
+    font-size: 16px;
+}
+
+/* CABEÇALHO -----------------------------------------------------*/
